@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 
-public class StartZoa : MonoBehaviour
+public class StartTowa : MonoBehaviour
 {
     [SerializeField] private Image fadeImage;           // 真っ黒イメージ
     [SerializeField] private float fadeDuration = 2.0f; // フェード時間
@@ -19,6 +19,6 @@ public class StartZoa : MonoBehaviour
         isTransitioning = true;
 
         // 1秒かけてAlphaを1（真っ黒）にし、完了したらシーン遷移
-        fadeImage.DOFade(1.0f, fadeDuration).OnComplete(() => SceneManager.LoadScene("ZoaScene"));
+        fadeImage.DOFade(1.0f, fadeDuration).OnComplete(() => SceneManager.LoadScene("TowaScene"));
     }
 }

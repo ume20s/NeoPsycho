@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: fd3662766c870484eab1694db826a374
   - enabled: 1
-    path: Assets/Scenes/PamperScene.unity
+    path: Assets/Scenes/HinaScene.unity
     guid: 3596325be9926e74f991a91b7cb595a1
+  - enabled: 1
+    path: Assets/Scenes/ZoaScene.unity
+    guid: b3da16d0cb0ec614cb00b753a14aeb5a
+  - enabled: 1
+    path: Assets/Scenes/NihoScene.unity
+    guid: a039d4386c5c8744897551466c645c33
+  - enabled: 1
+    path: Assets/Scenes/TowaScene.unity
+    guid: b7f5ec7798190164a8b342989bfeb212
   m_configObjects: {}
